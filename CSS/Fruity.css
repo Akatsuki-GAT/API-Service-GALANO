@@ -1,0 +1,42 @@
+
+body {
+  background-image: url('../IMGS/fruit.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.fruit-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.fruit-section input {
+  padding: 8px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.fruit-section button {
+  padding: 8px 16px;
+  background: teal;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fruit-section button:hover {
+  background: #007c7c;
+}
+
+#fruitInfo {
+  background: white;
+  padding: 20px;
+  margin: 25px auto;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

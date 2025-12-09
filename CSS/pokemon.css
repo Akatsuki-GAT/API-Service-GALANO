@@ -1,0 +1,128 @@
+/* ===============================
+   POKÉMON SEARCH STYLING (Centered)
+   =============================== */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../IMGS/images.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+/* --- Center Container for Pokémon Section --- */
+.pokemon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+/* --- Input Field --- */
+#pkmn_name {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 2px solid #0ea5a4;
+  border-radius: 8px;
+  outline: none;
+  width: 240px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+#pkmn_name:focus {
+  border-color: #0369a1;
+  box-shadow: 0 0 6px rgba(14, 165, 164, 0.5);
+}
+
+/* --- Button --- */
+button {
+  margin: 10px auto 20px;
+  padding: 10px 16px;
+  background-color: #0ea5a4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0369a1;
+}
+
+/* --- Pokémon Image --- */
+#pokemonSprite {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  image-rendering: pixelated;
+  border-radius: 12px;
+  background: #f1f5f9;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Pokémon Info Box --- */
+#pokemonInfo {
+  display: none;
+  max-width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+#pokemonInfo h2 {
+  color: #0369a1;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+#pokemonInfo p {
+  font-size: 1rem;
+  margin: 6px 0;
+  color: #334155;
+}
+
+#pokemonInfo strong {
+  color: #0ea5a4;
+  letter-spacing: 1px;
+}
+
+  .set1{
+    margin: 10px auto; 
+    width: 650px;
+    height:auto;
+    background-color: #333;
+    border: 3.5px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image:  linear-gradient(180deg,rgb(72, 3, 23) , rgb(214, 57, 14) ,rgb(119, 3, 34));
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+/* --- Simple fade-in animation --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
