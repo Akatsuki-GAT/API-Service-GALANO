@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API - 3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/Fruity.css">
+<script defer src="JS/Fruity.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="Fruity.html">Fruity</a>
+    <nav class="main-nav">
+      <a href="Weather_Info.html" class="menu-box">Weather City Forecast</a>
+      <a href="Email_Contact_Form.html" class="menu-box">Email Contact Form</a>
+      <a href="Pokedex_Lite.html" class="menu-box">Pokedex Lite</a>
+      
+    </nav>
+  </div>
+</header>
+
+
+<div class="fruit-section">  
+    <input type="text" id="fruit_name" placeholder="Enter Fruit Name (e.g. apple)">
+    <button onclick="fetchFruit()">Search Fruit</button><br><br>
+
+    <div id="fruitInfo" style="display:none;">
+        <h2 id="fruitName"></h2>
+        <p><strong>Genus:</strong> <span id="fruitGenus"></span></p>
+        <p><strong>Family:</strong> <span id="fruitFamily"></span></p>
+        <p><strong>Order:</strong> <span id="fruitOrder"></span></p>
+
+        <h3>Nutrition</h3>
+        <p><strong>Carbohydrates:</strong> <span id="fruitCarb"></span></p>
+        <p><strong>Protein:</strong> <span id="fruitProtein"></span></p>
+        <p><strong>Fat:</strong> <span id="fruitFat"></span></p>
+        <p><strong>Calories:</strong> <span id="fruitCalories"></span></p>
+        <p><strong>Sugar:</strong> <span id="fruitSugar"></span></p>
+    </div>
+</div>
+</html>

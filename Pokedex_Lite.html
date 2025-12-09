@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/pokemon.css"> 
+<script defer src="JS/pkmn.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="Pokedex_Lite.html">Pokedex Lite</a>
+    <nav class="main-nav">
+      <a href="Email_Contact_Form.html" class="menu-box">Email Contact Form</a>
+      <a href="Weather_Info.html" class="menu-box">Weather City Forecast</a>
+      <a href="Fruity.html" class="menu-box">Fruity</a>
+    </nav>
+  </div>
+</header>
+<div class = set1>
+<div class="pokemon-section">
+  <input type="text" id="pkmn_name" placeholder="Enter Pokemon Name">
+  <button onclick="fetchData()">Search Pokemon</button><br>
+
+  <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display:none"><br>
+
+  
+  <div id="pokemonInfo" style="display:none;">
+    <h2 id="pokeName"></h2>
+    <p><strong>ID:</strong> <span id="pokeID"></span></p>
+    <p><strong>Type:</strong> <span id="pokeType"></span></p>
+    <p><strong>Height:</strong> <span id="pokeHeight"></span></p>
+    <p><strong>Weight:</strong> <span id="pokeWeight"></span></p>
+    <p><strong>Abilities:</strong> <span id="pokeAbilities"></span></p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
