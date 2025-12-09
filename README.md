@@ -5,3 +5,4 @@
 4. Make sure Apache is running
 5. If running live based Github link like this to start: https://akatsuki-gat.github.io/API-Service-GALANO/Email_Contact_Form.html
 only fruity or API - 3 won't work if step 1 is skipped.
+6. Done
